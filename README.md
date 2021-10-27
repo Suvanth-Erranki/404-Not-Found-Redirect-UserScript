@@ -11,4 +11,4 @@ https://www.whitehouse.gov/energy/climate-change
 https://stevereads.com/cache/ephemeral_web_pages.html
 
 ### Notice:
-Do not post an issue for because the UserScript is redirecting you to the Wayback Machine, even though the website is full functioning and is not giving an error. It is almost certainly not the UserScript's fault. It is likely the website is simply giving a 404 http error status to the UserScript, even though this is inaccurate. This is a mistake on the website's part, just exclude the site from the UserScript so it does not execute on the page.
+Do not post an issue for because the UserScript is redirecting you to the Wayback Machine, even though the website is full functioning and is not giving an error. It is almost certainly not the UserScript's fault. It is very likely the website is simply giving a 404 http error status to the UserScript, even though this is inaccurate. This is a mistake on the website's part, just exclude the site from the UserScript so it does not execute on the page.
