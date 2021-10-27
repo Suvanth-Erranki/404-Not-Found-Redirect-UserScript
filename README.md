@@ -5,3 +5,6 @@ Website you can test this UserScript on:
 https://www.whitehouse.gov/energy/climate-change
 
 https://stevereads.com/cache/ephemeral_web_pages.html
+
+# What is a UserScript?
+Check out: https://en.wikipedia.org/wiki/Userscript
