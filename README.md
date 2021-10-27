@@ -1,7 +1,7 @@
 # 404 Not Found Redirect UserScript
 This UserScript detects "404 Not Found" (and similar) errors on webpages and redirects to an work copy on the Wayback Machine if available.
 
-# Installation
+## Installation
 Install a userscript manager extension like Tampermonkey or Greasymonkey on your web browser.
 
 Once you have a userscript manager installed just click this link: [install](https://github.com/Suvanth-Erranki/404-Not-Found-Redirect-UserScript/raw/main/404%20Not%20Found%20Redirect.user.js)
