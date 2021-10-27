@@ -4,6 +4,7 @@
 // @description  This userscript detects "404 Not Found" errors on webpages and redirects to an work copy on the Wayback Machine if available.
 // @author       Suvanth Erranki
 // @include      *
+// @exclude      https://archive.org/*
 // @run-at       document-start
 // ==/UserScript==
 
@@ -18,6 +19,8 @@ function redirect() {
                         var redirectUrl = JSON.parse(text).archived_snapshots.closest.url
                         location.href = redirectUrl
                     })
+                }).catch(function(error) {
+                    alert("Sorry, the website you are on currently is blocking the UserScript from making a request to the Wayback Machine.\n\nSee: https://github.com/Suvanth-Erranki/404-Not-Found-Redirect-UserScript/issues/1 for more information.")
                 })
             }
         }
@@ -25,3 +28,7 @@ function redirect() {
 }
 
 redirect()
+
+// Website you can test this UserScript on:
+// https://www.whitehouse.gov/energy/climate-change
+// https://stevereads.com/cache/ephemeral_web_pages.html
