@@ -2,7 +2,7 @@
 Check out: https://en.wikipedia.org/wiki/Userscript
 
 # 404 Not Found Redirect UserScript
-This UserScript detects "404 Not Found" Errors on webpages and redirects to an work copy on the Wayback Machine if available. Just install the [Tampermonkey](https://www.tampermonkey.net/) or [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) UserScript manager extensions, go to the ".user.js" file with the code, and click raw and your UserScript manager should prompt you to install it!
+This UserScript detects "404 Not Found" (and similar) errors on webpages and redirects to an work copy on the Wayback Machine if available. Just install the [Tampermonkey](https://www.tampermonkey.net/) or [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) UserScript manager extensions, go to the ".user.js" file with the code, and click raw and your UserScript manager should prompt you to install it!
 
 Website you can test this UserScript on:
 
