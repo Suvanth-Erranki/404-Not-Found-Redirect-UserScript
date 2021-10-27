@@ -9,7 +9,7 @@
 
 function redirect() {
     var errorStatuses = [404, 408, 410, 451, 500, 502, 503, 504, 509, 520, 521, 523, 524, 525, 526]
-    fetch(location.href, { method: 'head' }).then(function(status) {
+    fetch(location.href, {method: 'head'}).then(function(status) {
         for (let i = 0; i < errorStatuses.length; i++) {
             if (status.status === errorStatuses[i]) {
                 let apiUrl = "https://web.archive.org/wayback/available?url=" + location.href;
